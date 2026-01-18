@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "http://62.72.22.223/$1"
+      "destination": "http://62.72.22.223/fact_checker/$1"
     }
   ]
 }
