@@ -14,7 +14,7 @@ const FactCheckTable = () => {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://fact-check-api-32dx.onrender.com/dashboard/fact-checks/');
+      const response = await fetch('http://62.72.22.223/dashboard/fact-checks/');
 
       if (!response.ok) {
         throw new Error('Failed to fetch data');
